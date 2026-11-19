@@ -1,0 +1,6 @@
+variant,val_cer,test_cer,test_wer,delta_cer
+baseline_decode,77.91,78.37,92.04,0.0
+greedy,76.02,76.09,92.48,-2.28
+beam4_no_ngram_block,78.3,78.72,91.9,0.35
+beam4_lp1.0,77.36,77.92,91.72,-0.45
+beam8,78.94,78.98,91.82,0.61

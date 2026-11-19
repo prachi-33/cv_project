@@ -1,0 +1,13 @@
+variant,group,seeds,val_cer,test_cer,test_wer,trainable_M,train_min,delta_cer
+baseline,reference,1,77.91,78.37,92.04,293.02,19.63,0.0
+no_aug,augmentation,1,76.15,76.1,90.06,293.02,19.35,-2.27
+elastic_only,augmentation,1,75.1,75.22,88.65,293.02,19.65,-3.15
+blur_only,augmentation,1,79.86,79.21,93.6,293.02,19.39,0.84
+resize_pad,preprocessing,1,80.49,80.95,92.79,293.02,19.69,2.58
+freeze_encoder,initialization,1,79.83,79.74,95.81,206.34,16.1,1.37
+random_encoder,initialization,1,78.45,77.95,93.55,293.02,19.8,-0.42
+random_decoder,initialization,1,81.05,81.28,95.96,293.02,19.77,2.91
+data_50pct,data,1,83.21,83.04,97.78,293.02,9.91,4.67
+data_25pct,data,1,80.26,80.4,96.94,293.02,4.91,2.03
+lr_1e-4,optimization,1,123.61,121.22,250.57,293.02,19.42,42.85
+lr_1e-5,optimization,1,79.34,79.47,95.06,293.02,19.78,1.1

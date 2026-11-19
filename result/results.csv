@@ -1,0 +1,4 @@
+model,architecture,params_M,decoding,cer_pct,wer_pct,f1_pct,accuracy_pct
+TrOCR_HI (7-epoch fine-tuned),DeiT-base + mBERT,293.02,Greedy (beam=1),0.53,2.24,,89.0
+CRNN-Attention (20 epochs),ResNet50 + BiLSTM + Luong,31.81,Greedy (beam=1),0.81,2.95,99.66,90.5
+CRNN-Attention (20 epochs),ResNet50 + BiLSTM + Luong,31.81,Beam Search (beam=5),0.56,2.16,99.76,92.0
